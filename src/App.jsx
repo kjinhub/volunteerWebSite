@@ -1,19 +1,21 @@
+import { BrowserRouter } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import AppRouter from "./routes/AppRouter";
 import "./assets/styles/index.css";
 
-function App() {
+const App = () => {
   return (
-    <>
+    <BrowserRouter>
       <Header />
       <AppRouter />
       <Footer />
-    </>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;
+
 // star-narae-react/
 // ├── index.html
 // ├── vite.config.js
