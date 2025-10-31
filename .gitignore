@@ -1,0 +1,62 @@
+# ==============================
+# 📦 Node & Dependency
+# ==============================
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ==============================
+# 🏗️ Build Output
+# ==============================
+dist/
+build/
+
+# ==============================
+# ⚙️ Environment / Secrets
+# ==============================
+.env
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+# ==============================
+# 💾 Editor & System Files
+# ==============================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==============================
+# 🧠 Temporary / Cache
+# ==============================
+*.tmp
+*.temp
+.cache/
+vite.config.ts.timestamp-*
+vite.config.js.timestamp-*
+.vite/
+eslintcache
+
+# ==============================
+# 🔒 OS & Misc
+# ==============================
+*.swp
+*.swo
+*.bak
+*.orig
+*.rej
+
+# ==============================
+# 🖼️ (Optional) Local media files
+# ==============================
+# public/img/large_assets/
+# src/assets/temp/
+
+
