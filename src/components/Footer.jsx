@@ -36,7 +36,7 @@ const Footer = () => (
       </div>
 
       <div className="footer-bottom">
-        <p>ⓒ NAVER Corp.</p>
+        <p>ⓒ ChoiKukJin Corp.</p>
       </div>
     </div>
   </footer>

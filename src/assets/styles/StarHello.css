@@ -1,0 +1,143 @@
+.starHelloPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Noto Sans KR", sans-serif;
+  color: #212529;
+  line-height: 1.6;
+}
+
+/* 상단 배너 */
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+}
+
+.hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(70%);
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero-text p {
+  font-size: 1.1rem;
+}
+
+/* 인사글 */
+.main2Contents {
+  width: 80%;
+  max-width: 900px;
+  margin: 3rem auto;
+  background: #f9f9f9;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.main2Contents h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #007bff;
+}
+
+.contentWord pre {
+  white-space: pre-wrap;
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.8;
+}
+
+/* 미션/비전 */
+.mission-vision {
+  background-color: #f1f8ff;
+  padding: 2rem;
+  width: 80%;
+  max-width: 900px;
+  border-radius: 10px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.mission-vision h3 {
+  color: #0056b3;
+  margin-bottom: 1rem;
+}
+
+.mission-vision ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.mission-vision li {
+  padding: 0.5rem 0;
+  font-weight: 500;
+}
+
+/* 링크 버튼 */
+.link-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2.5rem 0 4rem;
+}
+
+.link-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.link-btn:hover {
+  background-color: #0056b3;
+}
+/* 🐟 물고기 애니메이션 */
+.fish-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  pointer-events: none; /* 클릭 방지 */
+  z-index: 1;
+}
+
+/* 🐟 마우스 반응형 물고기 */
+.fish-container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.fish-follow {
+  position: absolute;
+  width: 80px;
+  opacity: 0.9;
+  transition: transform 0.1s linear;
+}

@@ -28,7 +28,7 @@ const Header = () => (
           <Link to="/absence">별나래 출결 안내</Link>
         </li>
         <li>
-          <Link to="/activity">월결 활동 사진</Link>
+          <Link to="/activity">월별 활동 사진</Link>
         </li>
         <li>
           <Link to="/mealSchedule">월별 식단표</Link>
