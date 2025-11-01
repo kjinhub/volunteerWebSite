@@ -23,7 +23,7 @@
 |------|------|
 | Frontend Framework | React (Vite 기반) |
 | Styling | CSS3, Flex/Grid Layout |
-| Language | HTML5, JavaScript (ES6+) |
+| Language | JavaScript (ES6+) |
 | Version Control | Git / GitHub |
 | API | Naver Map API (길찾기, 위치 표시) |
 
