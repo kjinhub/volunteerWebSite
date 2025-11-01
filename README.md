@@ -29,29 +29,31 @@
 
 ---
 
+
+```markdown
 ## 📂 폴더 구조 (HTML 기반)
 
-
+```plaintext
 volunteerWebSite/
 │
-├── index.html # 메인 페이지
-├── starHello.html # 인사글 (별나래 소개)
-├── inner.html # 내부 시설 소개
-├── program.html # 프로그램 안내
-├── programPics.html # 프로그램 활동 사진
-├── absence.html # 출결 안내
-├── activity.html # 월별 활동 사진
-├── mealSchedule.html # 월별 식단표
-├── envirmentEdu.html # 환경교육 안내
-├── env1.html # 환경교육 추가 페이지
-├── etc.html # 기타 안내
-├── membership.html # 후원 안내
-├── membershipList.html # 후원자 리스트
-├── Way.html # 오시는 길 (네이버지도)
-├── login.html # 로그인 페이지
-├── signUp.html # 회원가입 페이지
-├── css/ # 각 HTML 전용 스타일 시트
-└── img/ # 이미지 및 아이콘 리소스
+├── index.html                # 메인 페이지
+├── starHello.html            # 인사글 (별나래 소개)
+├── inner.html                # 내부 시설 소개
+├── program.html              # 프로그램 안내
+├── programPics.html          # 프로그램 활동 사진
+├── absence.html              # 출결 안내
+├── activity.html             # 월별 활동 사진
+├── mealSchedule.html         # 월별 식단표
+├── envirmentEdu.html         # 환경교육 안내
+├── env1.html                 # 환경교육 추가 페이지
+├── etc.html                  # 기타 안내
+├── membership.html           # 후원 안내
+├── membershipList.html       # 후원자 리스트
+├── Way.html                  # 오시는 길 (네이버지도)
+├── login.html                # 로그인 페이지
+├── signUp.html               # 회원가입 페이지
+├── css/                      # 각 HTML 전용 스타일 시트
+└── img/                      # 이미지 및 아이콘 리소스
 
 ---
 
