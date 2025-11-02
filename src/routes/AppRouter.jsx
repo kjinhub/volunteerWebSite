@@ -12,6 +12,7 @@ import Membership from "../pages/Membership";
 import Way from "../pages/Way";
 import SignUp from "../pages/SignUp";
 import Login from "../pages/Login";
+import ProgramPics from "../pages/ProgramPics";
 
 const AppRouter = () => (
   <Routes>
@@ -19,6 +20,8 @@ const AppRouter = () => (
     <Route path="/starHello" element={<StarHello />} />
     <Route path="/inner" element={<Inner />} />
     <Route path="/program" element={<Program />} />
+    <Route path="/programPics" element={<ProgramPics />} />
+
     <Route path="/absence" element={<Absence />} />
     <Route path="/activity" element={<Activity />} />
     <Route path="/mealSchedule" element={<MealSchedule />} />

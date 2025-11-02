@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-// import "./Home.css";
+// import backgroundImg from "../assets/img/backGroundimg2.png"; // 아동 사진 파일
+// import "../assets/styles/Home.css";
 
 const Home = () => {
   return (

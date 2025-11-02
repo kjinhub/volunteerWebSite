@@ -1,0 +1,84 @@
+.programPicsSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9fafc;
+  padding: 3rem 0;
+  gap: 4rem;
+}
+
+/* 상단 제목 */
+.mainHead h2 {
+  font-size: 2rem;
+  color: #333;
+  border-bottom: 3px solid #1abc9c;
+  padding-bottom: 0.5rem;
+  display: inline-block;
+}
+
+/* 각 섹션 */
+.main3Contents {
+  width: 100%;
+  max-width: 1200px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  text-align: center;
+  /* ✅ 추가 */
+  display: flex;
+  flex-direction: column; /* 제목이 위, 이미지그리드가 아래 */
+  align-items: center;
+  gap: 2rem;
+}
+
+/* 섹션 제목 */
+.main3Contents h3 {
+  color: #1a73e8;
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+/* 이미지 그리드 */
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem; /* ✅ 이미지 간 간격 */
+}
+
+/* 개별 이미지 */
+.image-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.zoom-image {
+  width: 350px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.zoom-image:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* 반응형 */
+@media (max-width: 900px) {
+  .zoom-image {
+    width: 300px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 600px) {
+  .zoom-image {
+    width: 90%;
+    height: auto;
+  }
+}

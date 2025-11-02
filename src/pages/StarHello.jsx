@@ -16,8 +16,8 @@ const StarHello = () => {
     const pos = Array.from({ length: numFishes }, () => ({
       x: Math.random() * window.innerWidth,
       y: Math.random() * window.innerHeight,
-      vx: (Math.random() - 1) * 1.5, // x속도
-      vy: (Math.random() - 1) * 1.5, // y속도
+      vx: (Math.random() - 0.5) * 1.5, // x속도
+      vy: (Math.random() - 0.5) * 1.5, // y속도
     }));
 
     let mouse = { x: 0, y: 0 };
